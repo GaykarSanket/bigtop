@@ -9,7 +9,7 @@ target
 *.classpath
 *.iml
 .idea
-.gradle
-gradle*
+
+
 .vagrant
 .DS_Store
