@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -ex
+
+. `dirname ${0}`/bigtop.bom
+
+mvn -DskipTests=true clean compile package install assembly:assembly
+
+#mvn install:install-file -DcreateChecksum=true -Dversion=$RANGER_VERSION -Dclassifier=tests -Dpackaging=jar -Dfile=build/ranger-$RANGER_VERSION-test.jar
