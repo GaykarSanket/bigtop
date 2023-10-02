@@ -39,8 +39,8 @@
   <inceptionYear>2011</inceptionYear>
 
   <properties>
-    <hadoop.version>2.7.3</hadoop.version>
-    <hbase.version>1.1.9</hbase.version>
+    <hadoop.version>3.3.5</hadoop.version>
+    <hbase.version>2.3.0</hbase.version>
     <pig.version>0.15.0</pig.version>
     <pig-smoke.version>0.15.0</pig-smoke.version>
     <sqoop.version>1.4.6</sqoop.version>
